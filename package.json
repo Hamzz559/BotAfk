@@ -1,0 +1,15 @@
+{
+  "name": "cookisbot",
+  "version": "1.0.0",
+  "description": "Bot AFK Minecraft (Mineflayer) dengan dashboard web dan kontrol Telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mineflayer": "^4.20.0",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "license": "MIT"
+}

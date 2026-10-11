@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Bot Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-title">🍪 COOKIE BOT PANEL</div>
+            <div class="header-right">
+                <span id="badge" class="status-badge Offline">Offline</span>
+            </div>
+        </header>
+        <div class="card">
+            <h2>📈 Status Sistem</h2>
+            <div class="info-grid">
+                <div class="info-item"><div class="info-label">Ping Server</div><div id="val-ping">-</div></div>
+                <div class="info-item"><div class="info-label">Uptime Bot</div><div id="val-uptime">00:00:00</div></div>
+                <div class="info-item" style="background: #1e1b4b; border-color: #4338ca;"><div class="info-label" style="color: #a5b4fc;">✨ Est. Shards Earned</div><div id="val-shards" class="info-value" style="color: #818cf8; font-weight: bold;">0 Shards</div></div>
+                <div class="info-item"><div class="info-label">RAM Usage</div><div id="val-ram">-</div></div>
+                <div class="info-item"><div class="info-label">CPU Usage</div><div id="val-cpu">-</div></div>
+            </div>
+        </div>
+        <div class="card">
+            <h2>🤖 Informasi Bot</h2>
+            <div class="info-grid">
+                <div class="info-item"><div class="info-label">Username</div><div id="val-name">-</div></div>
+                <div class="info-item"><div class="info-label">Lokasi (X, Y, Z)</div><div id="val-xyz">0, 0, 0</div></div>
+                <div class="info-item"><div class="info-label">Dimension</div><div id="val-dim">-</div></div>
+                <div class="info-item"><div class="info-label">Health</div><div id="val-hp">-</div></div>
+                <div class="info-item"><div class="info-label">Hunger</div><div id="val-food">-</div></div>
+                <div class="info-item"><div class="info-label">XP Level</div><div id="val-xp">-</div></div>
+            </div>
+        </div>
+        <div class="card full-width">
+            <h2>💬 Live Chat & Console Log</h2>
+            <div id="console" class="console">
+                <div>Menghubungkan ke log stream...</div>
+            </div>
+        </div>
+        <div class="card full-width">
+            <h2>⚙️ Setting Automation</h2>
+            <div class="toggle-grid">
+                <div class="toggle-item"><span>Auto Login</span><div class="indicator">Aktif</div></div>
+                <div class="toggle-item"><span>Auto Warp</span><div class="indicator">Aktif</div></div>
+                <div class="toggle-item"><span>Auto Reconnect</span><div class="indicator">Aktif</div></div>
+                <div class="toggle-item"><span>Auto Reply</span><div class="indicator">Aktif</div></div>
+                <div class="toggle-item"><span>Auto Eat (HP &lt; 20)</span><div class="indicator">Aktif</div></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
