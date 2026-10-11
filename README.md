@@ -4,6 +4,8 @@ Bot AFK Minecraft (Mineflayer) dengan dashboard web control
 ## Install
 
 ```bash
+git clone https://github.com/Hamzz559/BotAfk
+cd BotAfk
 npm install
 node index.js
 ```
